@@ -1,0 +1,4 @@
+skill load "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_FDC2112DNTR/AllegroV17_2/builder.ile" 
+skill changeWorkingDir "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_FDC2112DNTR/AllegroV17_2" 
+skill LB_createFootprint "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_FDC2112DNTR/AllegroV17_2/DNT0012B.xml" 
+exit 

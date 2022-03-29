@@ -1,0 +1,305 @@
+\t (00:00:00) allegro 17.2 S081 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Mar 29 19:41:54 2022
+\t (00:00:00)         Host=REPEXWINDOWS User=repex Pid=1932 CPUs=12
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe C:\Users\repex\Desktop\SoilSensor\PCB\Components\ul_TMP275AID\AllegroV17_2\D8.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged D8
+\d (00:00:03) Design opened: C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/D8.dra
+\i (00:00:03) trapsize 1442
+\i (00:00:03) trapsize 1469
+\i (00:00:03) trapsize 1442
+\i (00:00:03) trapsize 1442
+\i (00:00:04) generaledit 
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 91.276 -28.068
+\i (00:00:06) trapsize 2883
+\i (00:00:28) define grid 
+\t (00:00:28) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:00:32) setwindow form.grid
+\i (00:00:32) FORM grid non_etch non_etch_x_grids 0.1 
+\i (00:00:32) FORM grid done  
+\i (00:00:36) setwindow pcb
+\i (00:00:36) define grid 
+\t (00:00:36) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:00:41) setwindow form.grid
+\i (00:00:41) FORM grid non_etch non_etch_y_grids 0.1 
+\i (00:00:41) FORM grid done  
+\i (00:01:22) setwindow pcb
+\i (00:01:22) prmed 
+\i (00:01:22) FORM prmedit design 
+\i (00:01:22) setwindow form.prmedit
+\i (00:01:22) FORM prmedit design  
+\i (00:01:22) setwindow pcb
+\i (00:01:22) trapsize 2883
+\i (00:01:24) setwindow form.prmedit
+\i (00:01:24) FORM prmedit units Millimeter 
+\e (00:01:24) Change may cause round-off; run dbcheck.
+\i (00:01:26) FORM prmedit done  
+\w (00:01:26) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:26) setwindow pcb
+\i (00:01:26) trapsize 732
+\t (00:01:26) Performing DRC...
+\t (00:01:26) No DRC errors detected.
+\i (00:01:26) trapsize 746
+\i (00:01:26) trapsize 732
+\i (00:01:26) generaledit 
+\i (00:01:35) pick grid -2.6467 4.4720
+\t (00:01:35) last pick:  -2.6475 4.4725
+\i (00:01:35) prepopup -2.7199 4.8088
+\i (00:01:37) pop dyn_option_select '@:@Text edit' 
+\i (00:01:37) text edit 
+\i (00:01:47) setwindow form.textedit
+\i (00:01:47) FORM textedit str U* 
+\i (00:01:47) FORM textedit done  
+\i (00:01:47) setwindow pcb
+\i (00:01:47) pick 0.0000 0.0000
+\t (00:01:47) Pick text to edit.
+\i (00:01:47) setwindow pcb
+\i (00:01:47) generaledit 
+\i (00:01:51) pick grid -3.9063 3.7982
+\t (00:01:51) last pick:  -3.9075 3.7975
+\i (00:01:51) pick grid -7.6558 3.3149
+\t (00:01:51) last pick:  -7.6550 3.3150
+\i (00:01:54) drag_start grid -2.9689 4.3109
+\i (00:01:54) move 
+\t (00:01:54) last pick:  -2.7178 4.2418
+\t (00:01:54) Pick new location for the element(s).
+\i (00:01:55) drag_stop grid -2.9396 5.6437
+\i (00:01:55) generaledit 
+\i (00:01:55) pick grid -2.7638 4.5013
+\t (00:01:55) last pick:  -2.7650 4.5025
+\i (00:01:57) prepopup -3.1446 5.1896
+\i (00:01:59) pop dyn_option_select '@:@Text edit' 
+\i (00:01:59) text edit 
+\i (00:02:02) setwindow form.textedit
+\i (00:02:02) FORM textedit str U** 
+\i (00:02:02) FORM textedit done  
+\i (00:02:02) setwindow pcb
+\i (00:02:02) pick 0.0000 0.0000
+\t (00:02:02) Pick text to edit.
+\i (00:02:03) setwindow pcb
+\i (00:02:03) generaledit 
+\i (00:02:04) prepopup -3.1300 4.7649
+\i (00:02:05) pop dyn_option_select '@:@Text edit' 
+\i (00:02:05) text edit 
+\i (00:02:08) setwindow form.textedit
+\i (00:02:08) FORM textedit str U* 
+\i (00:02:08) FORM textedit done  
+\i (00:02:08) setwindow pcb
+\i (00:02:08) pick 0.0000 0.0000
+\t (00:02:08) Pick text to edit.
+\i (00:02:08) setwindow pcb
+\i (00:02:08) generaledit 
+\i (00:02:09) drag_start grid -3.2472 4.8088
+\i (00:02:09) move 
+\t (00:02:09) last pick:  -2.7178 4.2418
+\t (00:02:09) Pick new location for the element(s).
+\i (00:02:10) drag_stop grid -2.1194 3.7836
+\i (00:02:10) generaledit 
+\i (00:02:13) drag_start grid -2.5734 4.2816
+\i (00:02:13) move 
+\t (00:02:13) last pick:  -2.1200 3.7825
+\t (00:02:13) Pick new location for the element(s).
+\i (00:02:18) drag_stop grid -0.0835 3.5053
+\i (00:02:18) generaledit 
+\i (00:02:19) drag_start grid -3.2618 5.7609
+\i (00:02:19) move 
+\t (00:02:20) last pick:  -2.9400 5.6425
+\t (00:02:20) Pick new location for the element(s).
+\i (00:02:23) drag_stop grid -0.0982 3.5053
+\i (00:02:23) generaledit 
+\i (00:02:23) pick grid -0.2446 6.2588
+\t (00:02:23) last pick:  -0.2450 6.2600
+\i (00:02:25) pick grid -0.2593 0.2391
+\t (00:02:25) last pick:  -0.2600 0.2400
+\i (00:02:31) delete 
+\i (00:02:31) generaledit 
+\i (00:02:32) pick grid -0.1275 0.0194
+\t (00:02:32) last pick:  -0.1275 0.0200
+\i (00:02:35) drag_start grid -0.1714 0.0194
+\i (00:02:35) move 
+\t (00:02:35) last pick:  0.0000 -0.6350
+\t (00:02:35) Pick new location for the element(s).
+\i (00:02:36) drag_stop grid -0.8891 5.4240
+\i (00:02:37) generaledit 
+\i (00:02:38) drag_start grid -0.9184 5.7755
+\i (00:02:38) move 
+\t (00:02:38) last pick:  -0.8900 5.4250
+\t (00:02:38) Pick new location for the element(s).
+\i (00:02:40) drag_stop grid -3.0568 4.3109
+\i (00:02:40) generaledit 
+\i (00:02:40) prepopup -3.1886 4.4720
+\i (00:02:42) pick grid 0.5902 6.4346
+\t (00:02:42) last pick:  0.5900 6.4350
+\i (00:02:43) pick grid -0.4497 4.2230
+\t (00:02:43) last pick:  -0.4500 4.2225
+\i (00:02:47) delete 
+\i (00:02:47) generaledit 
+\i (00:02:48) pick grid -0.5376 4.3255
+\t (00:02:48) last pick:  -0.5375 4.3250
+\i (00:02:49) delete 
+\i (00:02:49) generaledit 
+\i (00:02:50) drag_start grid 0.3266 -0.1710
+\i (00:02:50) move 
+\t (00:02:50) last pick:  0.0000 -0.6350
+\t (00:02:50) Pick new location for the element(s).
+\i (00:02:51) drag_stop grid 0.8685 4.2816
+\i (00:02:51) generaledit 
+\i (00:02:55) drag_start grid 0.7074 4.6038
+\i (00:02:55) move 
+\t (00:02:55) last pick:  0.8675 4.2825
+\t (00:02:55) Pick new location for the element(s).
+\i (00:02:55) drag_stop grid -0.0835 3.9154
+\i (00:02:56) generaledit 
+\i (00:02:56) drag_start grid -2.0608 4.6917
+\i (00:02:56) move 
+\t (00:02:56) last pick:  -3.0575 4.3100
+\t (00:02:56) Pick new location for the element(s).
+\i (00:02:58) drag_stop grid -0.0835 3.9447
+\i (00:02:58) generaledit 
+\i (00:02:59) pick grid 0.0776 3.3588
+\t (00:02:59) last pick:  0.0775 3.3600
+\i (00:03:01) drag_start grid -0.7573 4.0765
+\i (00:03:01) move 
+\t (00:03:01) last pick:  -0.0825 3.9450
+\t (00:03:01) Pick new location for the element(s).
+\i (00:03:05) drag_stop grid -0.0982 3.9154
+\i (00:03:05) generaledit 
+\i (00:03:06) pick grid -0.6254 3.6225
+\t (00:03:06) last pick:  -0.6250 3.6225
+\i (00:03:09) pick grid -0.3911 -0.3467
+\t (00:03:09) last pick:  -0.3900 -0.3475
+\i (00:03:11) delete 
+\i (00:03:11) generaledit 
+\i (00:03:12) pick grid -0.0103 -0.3760
+\t (00:03:12) last pick:  -0.0100 -0.3750
+\i (00:03:13) delete 
+\i (00:03:13) generaledit 
+\i (00:03:14) pick grid -0.7866 0.1659
+\t (00:03:14) last pick:  -0.7875 0.1650
+\i (00:03:15) delete 
+\i (00:03:15) generaledit 
+\i (00:03:17) pick grid -1.2699 0.5174
+\t (00:03:17) last pick:  -1.2700 0.5175
+\i (00:03:18) delete 
+\i (00:03:18) generaledit 
+\i (00:03:23) drag_start grid -2.5734 5.9806
+\i (00:03:25) drag_stop 2.2013 3.6811
+\i (00:03:26) drag_start grid -0.3911 4.4573
+\i (00:03:27) drag_stop grid -0.3032 3.4321
+\i (00:03:29) move 
+\i (00:03:30) pick grid -0.3472 4.7502
+\t (00:03:30) last pick:  -0.3475 4.7500
+\t (00:03:30) Pick new location for the element(s).
+\i (00:03:34) pick grid -0.2300 4.1790
+\t (00:03:34) last pick:  -0.2300 4.1800
+\i (00:03:34) generaledit 
+\i (00:03:35) prepopup -0.2446 4.1204
+\i (00:03:38) pick grid -0.3765 5.7316
+\t (00:03:38) last pick:  -0.3775 5.7325
+\i (00:03:39) pick grid -0.0689 4.3694
+\t (00:03:39) last pick:  -0.0700 4.3700
+\i (00:03:39) prepopup -0.0835 4.4573
+\i (00:03:42) pop dyn_option_select '@:@Text edit' 
+\i (00:03:42) text edit 
+\i (00:03:47) setwindow form.textedit
+\i (00:03:47) FORM textedit str U* 
+\i (00:03:47) FORM textedit done  
+\i (00:03:47) setwindow pcb
+\i (00:03:47) pick 0.0000 0.0000
+\t (00:03:47) Pick text to edit.
+\i (00:03:47) setwindow pcb
+\i (00:03:47) generaledit 
+\i (00:03:49) pick grid -1.2992 3.8129
+\t (00:03:49) last pick:  -1.3000 3.8125
+\i (00:03:50) prepopup -1.3871 3.8275
+\i (00:03:52) pop dyn_option_select '@:@Text edit' 
+\i (00:03:52) text edit 
+\i (00:03:56) setwindow form.textedit
+\i (00:03:56) FORM textedit str U* 
+\i (00:03:56) FORM textedit done  
+\i (00:03:56) setwindow pcb
+\i (00:03:56) pick 0.0000 0.0000
+\t (00:03:56) Pick text to edit.
+\i (00:03:56) setwindow pcb
+\i (00:03:56) generaledit 
+\i (00:04:02) pick grid -2.8371 5.5119
+\t (00:04:02) last pick:  -2.8375 5.5125
+\i (00:04:05) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:04:06) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:04:09) QtSignal CVPLayerGrid CVPPlanesLabel clicked false
+\i (00:04:10) QtSignal CVPLayerGrid CVPPlanesLabel clicked true
+\i (00:04:12) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILK_TOP"
+\i (00:04:12) color -globvis off 
+\i (00:04:13) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
+\i (00:04:13) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+\i (00:04:13) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:04:13) trapsize 732
+\i (00:04:13) generaledit 
+\i (00:04:17) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: TOP"
+\i (00:04:17) color -globvis off 
+\i (00:04:18) color -vis 'DRC ERROR CLASS/TOP' 
+\i (00:04:18) color -vis ETCH/TOP 
+\i (00:04:18) color -vis PIN/TOP 
+\i (00:04:18) color -vis 'VIA CLASS/TOP' 
+\i (00:04:18) trapsize 732
+\i (00:04:18) generaledit 
+\i (00:04:20) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:04:20) pick grid -4.6386 8.4265
+\t (00:04:20) last pick:  -4.6375 8.4275
+\i (00:04:25) color192 
+\i (00:04:25) generaledit 
+\i (00:04:31) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:04:38) QtSignal CVDLoadMenu CVDLoadCustomAction triggered
+\i (00:04:51) QtFillin 
+\i (00:04:57) QtSignal ColorVisibilityDialog CVDTabs currentChanged Nets
+\i (00:04:58) QtSignal ColorVisibilityDialog CVDTabs currentChanged Display
+\i (00:04:58) QtSignal ColorVisibilityDialog CVDTabs currentChanged Favorites
+\i (00:04:59) QtSignal Classes CVDVisibleClassSelector currentRowChanged 0
+\i (00:04:59) QtSignal ColorVisibilityDialog CVDTabs currentChanged "Visibility Pane"
+\i (00:05:02) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: SILK_TOP"
+\i (00:05:02) color -globvis off 
+\i (00:05:02) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
+\i (00:05:02) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+\i (00:05:02) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:05:02) trapsize 732
+\i (00:05:02) generaledit 
+\i (00:05:05) color192 
+\i (00:05:05) generaledit 
+\i (00:05:15) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components "Ref des"
+\i (00:05:17) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 7 0
+\i (00:05:17) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 7 0
+\i (00:05:17) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:05:20) QtSignal CVDSaveMenu CVDSaveCustomAction triggered
+\i (00:05:45) QtFillin 
+\i (00:05:47) QtSignal CVDSaveMenu CVDSaveCustomAction triggered
+\i (00:06:30) QtFillin C:/ORCAD_PERSONAL_LIBRARY/VIEWS/SILK_TOP.col
+\i (00:06:37) color -globvis off 
+\i (00:06:37) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
+\i (00:06:37) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+\i (00:06:37) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:06:37) trapsize 732
+\i (00:06:37) generaledit 
+\i (00:06:50) enved 
+\i (00:06:50) generaledit 
+\i (00:06:54) setwindow form.prfedit
+\i (00:06:54) FORM prfedit treelist  My_favorites 
+\i (00:06:54) FORM prfedit treelist  Paths 
+\i (00:06:56) FORM prfedit treelist  Library Paths 
+\i (00:07:04) FORM prfedit treelist  Visual Display 
+\i (00:07:07) FORM prfedit treelist  Display 
+\i (00:07:10) FORM prfedit treelist  Config Paths 
+\i (00:07:12) FORM prfedit treelist  Editor Paths 
+\i (00:07:13) FORM prfedit treelist  Library Paths 
+\i (00:07:25) FORM prfedit psmpath  
+\i (00:07:47) FORM prfedit apply  
+\i (00:07:48) FORM prfedit done  
+\i (00:07:50) setwindow pcb
+\i (00:07:50) exit 
+\e (00:07:50) Do you want to save the changes you made to D8.dra?
+\i (00:07:54) fillin yes 
+\t (00:07:54) Symbol 'd8.psm' created.
+\t (00:07:55)     Journal end - Tue Mar 29 19:49:48 2022

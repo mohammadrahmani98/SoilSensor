@@ -1,0 +1,36 @@
+skill load "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/builder.ile" 
+skill changeWorkingDir "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2" 
+skill LB_createFootprint "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/D8-L.xml" 
+scriptmode +i +n 
+step pkg map 
+setwindow form.pkgmap3d 
+FORM pkgmap3d stplist D8.step 
+FORM pkgmap3d rotation_x 0 
+FORM pkgmap3d save_current 
+FORM pkgmap3d done 
+setwindow pcb 
+save  
+fillin yes 
+skill LB_createFootprint "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/D8-M.xml" 
+scriptmode +i +n 
+step pkg map 
+setwindow form.pkgmap3d 
+FORM pkgmap3d stplist D8.step 
+FORM pkgmap3d rotation_x 0 
+FORM pkgmap3d save_current 
+FORM pkgmap3d done 
+setwindow pcb 
+save  
+fillin yes 
+skill LB_createFootprint "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/D8.xml" 
+scriptmode +i +n 
+step pkg map 
+setwindow form.pkgmap3d 
+FORM pkgmap3d stplist D8.step 
+FORM pkgmap3d rotation_x 0 
+FORM pkgmap3d save_current 
+FORM pkgmap3d done 
+setwindow pcb 
+save  
+fillin yes 
+exit 

@@ -1,0 +1,152 @@
+\t (00:00:00) allegro 17.2 S081 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Mar 29 19:39:35 2022
+\t (00:00:00)         Host=REPEXWINDOWS User=repex Pid=21144 CPUs=12
+\t (00:00:00) CmdLine= allegro.exe -s builder.scr.txt
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Starting new design...
+\i (00:00:03) trapsize 29310
+\i (00:00:04) replay builder.scr.txt 
+\i (00:00:04) skill 'load "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/builder.ile" ' 
+   (00:00:04) t
+\i (00:00:04) skill 'changeWorkingDir "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2" ' 
+   (00:00:04) t
+\i (00:00:04) skill 'LB_createFootprint "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/D8-L.xml" ' 
+\t (00:00:04) Reading Footprint XML
+\t (00:00:04) Creating padstacks
+\t (00:00:04) Starting new design...
+\i (00:00:04) trapsize 1
+\i (00:00:04) trapsize 1
+\i (00:00:04) trapsize 1
+\i (00:00:04) trapsize 720
+\i (00:00:04) trapsize 71973
+\t (00:00:04) Performing DRC...
+\t (00:00:04) Multithreaded DRC update (12 threads).
+\t (00:00:04) No DRC errors detected.
+\t (00:00:04) Opening Design "D8-L.dra"
+\t (00:00:04) Starting new design...
+\i (00:00:04) trapsize 1
+\i (00:00:04) trapsize 1
+\i (00:00:04) trapsize 1
+\i (00:00:04) trapsize 71973
+\i (00:00:04) trapsize 18311
+\t (00:00:04) Creating TextBlocks
+\t (00:00:04) Creating Shapes on Package layers
+   (00:00:04) *WARNING* (axlDBAddProp): ERROR(SPMHDB-272): Property is only allowed on PACKAGE KEEPOUT or PLACE BOUND. ("PACKAGE_HEIGHT_MAX" 69.0)
+\t (00:00:04) Creating Pins
+\t (00:00:04) Creating Vias
+\t (00:00:04) Creating package symbol 'C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/d8-l.psm'.
+\t (00:00:04) Starting Create symbol...
+\t (00:00:04) Symbol Created
+\i (00:00:04) trapsize 1408
+   (00:00:04) Loading cmds.cxt 
+   (00:00:04) Loading skillExt.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) trapsize 1418
+\i (00:00:05) trapsize 1445
+\i (00:00:05) trapsize 1418
+\i (00:00:05) trapsize 1418
+\d (00:00:05) Design opened: C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/D8-L.dra
+\t (00:00:05) Symbol Saved
+   (00:00:05) t
+\i (00:00:05) scriptmode +i +n 
+\i (00:00:05) step pkg map 
+\i (00:00:05) setwindow form.pkgmap3d 
+\i (00:00:05) FORM pkgmap3d stplist D8.step 
+\i (00:00:05) FORM pkgmap3d rotation_x 0 
+\i (00:00:05) FORM pkgmap3d save_current 
+\i (00:00:05) FORM pkgmap3d done 
+\i (00:00:05) setwindow pcb 
+\i (00:00:05) save 
+\i (00:00:05) fillin yes 
+\t (00:00:06) Symbol 'd8-l.psm' created.
+\i (00:00:06) skill 'LB_createFootprint "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/D8-M.xml" ' 
+\t (00:00:06) Reading Footprint XML
+\t (00:00:06) Creating padstacks
+\t (00:00:06) Starting new design...
+\i (00:00:06) trapsize 11044
+\i (00:00:06) trapsize 11255
+\i (00:00:06) trapsize 11044
+\i (00:00:06) trapsize 18311
+\i (00:00:06) trapsize 18311
+\t (00:00:06) Opening Design "D8-M.dra"
+\t (00:00:06) Starting new design...
+\i (00:00:06) trapsize 1
+\i (00:00:06) trapsize 1
+\i (00:00:06) trapsize 1
+\i (00:00:06) trapsize 18311
+\i (00:00:06) trapsize 18311
+\t (00:00:06) Creating TextBlocks
+\t (00:00:06) Creating Shapes on Package layers
+   (00:00:06) *WARNING* (axlDBAddProp): ERROR(SPMHDB-272): Property is only allowed on PACKAGE KEEPOUT or PLACE BOUND. ("PACKAGE_HEIGHT_MAX" 69.0)
+\t (00:00:06) Creating Pins
+\t (00:00:06) Creating Vias
+\t (00:00:06) Creating package symbol 'C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/d8-m.psm'.
+\t (00:00:06) Starting Create symbol...
+\t (00:00:07) Symbol Created
+\i (00:00:07) trapsize 1484
+\t (00:00:07) Opening existing design...
+\i (00:00:07) trapsize 1484
+\i (00:00:07) trapsize 1512
+\i (00:00:07) trapsize 1484
+\i (00:00:07) trapsize 1484
+\d (00:00:07) Design opened: C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/D8-M.dra
+\t (00:00:07) Symbol Saved
+   (00:00:07) t
+\i (00:00:07) scriptmode +i +n 
+\i (00:00:07) step pkg map 
+\i (00:00:07) setwindow form.pkgmap3d 
+\i (00:00:07) FORM pkgmap3d stplist D8.step 
+\i (00:00:07) FORM pkgmap3d rotation_x 0 
+\i (00:00:07) FORM pkgmap3d save_current 
+\i (00:00:07) FORM pkgmap3d done 
+\i (00:00:07) setwindow pcb 
+\i (00:00:07) save 
+\i (00:00:07) fillin yes 
+\t (00:00:08) Symbol 'd8-m.psm' created.
+\i (00:00:08) skill 'LB_createFootprint "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/D8.xml" ' 
+\t (00:00:08) Reading Footprint XML
+\t (00:00:08) Creating padstacks
+\t (00:00:08) Starting new design...
+\i (00:00:08) trapsize 11154
+\i (00:00:08) trapsize 11367
+\i (00:00:08) trapsize 11154
+\i (00:00:08) trapsize 18311
+\i (00:00:08) trapsize 18311
+\t (00:00:08) Opening Design "D8.dra"
+\t (00:00:08) Starting new design...
+\i (00:00:08) trapsize 1
+\i (00:00:08) trapsize 1
+\i (00:00:08) trapsize 1
+\i (00:00:08) trapsize 18311
+\i (00:00:08) trapsize 17993
+\t (00:00:08) Creating TextBlocks
+\t (00:00:08) Creating Shapes on Package layers
+   (00:00:08) *WARNING* (axlDBAddProp): ERROR(SPMHDB-272): Property is only allowed on PACKAGE KEEPOUT or PLACE BOUND. ("PACKAGE_HEIGHT_MAX" 69.0)
+\t (00:00:08) Creating Pins
+\t (00:00:08) Creating Vias
+\t (00:00:08) Creating package symbol 'C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/d8.psm'.
+\t (00:00:08) Starting Create symbol...
+\t (00:00:09) Symbol Created
+\i (00:00:09) trapsize 1442
+\t (00:00:09) Opening existing design...
+\i (00:00:09) trapsize 1442
+\i (00:00:09) trapsize 1469
+\i (00:00:09) trapsize 1442
+\i (00:00:09) trapsize 1442
+\d (00:00:09) Design opened: C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_TMP275AID/AllegroV17_2/D8.dra
+\t (00:00:09) Symbol Saved
+   (00:00:09) t
+\i (00:00:09) scriptmode +i +n 
+\i (00:00:09) step pkg map 
+\i (00:00:09) setwindow form.pkgmap3d 
+\i (00:00:09) FORM pkgmap3d stplist D8.step 
+\i (00:00:09) FORM pkgmap3d rotation_x 0 
+\i (00:00:09) FORM pkgmap3d save_current 
+\i (00:00:09) FORM pkgmap3d done 
+\i (00:00:09) setwindow pcb 
+\i (00:00:09) save 
+\i (00:00:09) fillin yes 
+\t (00:00:10) Symbol 'd8.psm' created.
+\i (00:00:10) exit 
+\t (00:00:10)     Journal end - Tue Mar 29 19:39:45 2022
