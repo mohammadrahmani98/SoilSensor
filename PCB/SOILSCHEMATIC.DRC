@@ -1,0 +1,56 @@
+Date and Time : 03/29/22 23:44:42
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: SOILSCHEMATIC 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+#1 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J1: SCHEMATIC1, SoilHumiditySensor (7.70, 3.50).
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,GND  GND  0
+                    SCHEMATIC1, SoilHumiditySensor  (4.00, 2.00) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,GND  GND  0
+                    SCHEMATIC1, SoilHumiditySensor  (2.90, 4.00) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  VCC
+                    SCHEMATIC1, SoilHumiditySensor  (4.00, 2.10) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,V+  V+  VCC
+                    SCHEMATIC1, SoilHumiditySensor  (1.60, 3.70) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
