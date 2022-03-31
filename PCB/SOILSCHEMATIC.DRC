@@ -1,4 +1,4 @@
-Date and Time : 03/29/22 23:44:42
+Date and Time : 03/31/22 22:51:09
 
 --------------------------------------------------
 Checking Schematic: SCHEMATIC1
@@ -42,14 +42,14 @@ Checking Name Property for Hierarchical Instances
 INFO(ORCAP-2211): Check High Speed Properties Syntax
 
 INFO(ORCAP-2212): Check Power Ground Mismatch
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,GND  GND  0
-                    SCHEMATIC1, SoilHumiditySensor  (4.00, 2.00) 
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,GND  GND  0
                     SCHEMATIC1, SoilHumiditySensor  (2.90, 4.00) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  VCC
-                    SCHEMATIC1, SoilHumiditySensor  (4.00, 2.10) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,GND  GND  0
+                    SCHEMATIC1, SoilHumiditySensor  (4.00, 2.00) 
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,V+  V+  VCC
                     SCHEMATIC1, SoilHumiditySensor  (1.60, 3.70) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  VCC
+                    SCHEMATIC1, SoilHumiditySensor  (4.00, 2.10) 
 
 Reporting Unused Refdes in multiple part packages
 Part	                       Quantity	                       Reference
