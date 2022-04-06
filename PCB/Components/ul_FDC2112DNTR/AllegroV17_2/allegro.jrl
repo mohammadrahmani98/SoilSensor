@@ -1,68 +1,19 @@
-\t (00:00:01) allegro 17.2 S081 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Tue Mar 29 19:06:37 2022
-\t (00:00:01)         Host=REPEXWINDOWS User=repex Pid=8372 CPUs=12
-\t (00:00:01) CmdLine= allegro.exe -s builder.scr.txt
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:02) Starting new design...
-\i (00:00:02) trapsize 29310
-\i (00:00:03) replay builder.scr.txt 
-\i (00:00:03) skill 'load "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_FDC2112DNTR/AllegroV17_2/builder.ile" ' 
-   (00:00:03) t
-\i (00:00:03) skill 'changeWorkingDir "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_FDC2112DNTR/AllegroV17_2" ' 
-   (00:00:03) t
-\i (00:00:03) skill 'LB_createFootprint "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_FDC2112DNTR/AllegroV17_2/DNT0012B.xml" ' 
-\t (00:00:03) Reading Footprint XML
-\t (00:00:03) Creating padstacks
-\t (00:00:03) Starting new design...
-\i (00:00:03) trapsize 1
-\i (00:00:03) trapsize 1
-\i (00:00:03) trapsize 1
-\i (00:00:03) trapsize 720
-\i (00:00:03) trapsize 71973
-\t (00:00:03) Performing DRC...
-\t (00:00:03) Multithreaded DRC update (12 threads).
-\t (00:00:03) No DRC errors detected.
-\t (00:00:03) Starting new design...
-\i (00:00:03) trapsize 55881
-\i (00:00:03) trapsize 56941
-\i (00:00:03) trapsize 55881
-\i (00:00:03) trapsize 71973
-\i (00:00:03) trapsize 71973
-\t (00:00:03) Starting new design...
-\i (00:00:03) trapsize 55881
-\i (00:00:04) trapsize 56941
-\i (00:00:04) trapsize 55881
-\i (00:00:04) trapsize 71973
-\i (00:00:04) trapsize 71973
-\t (00:00:04) Opening Design "DNT0012B.dra"
-\t (00:00:04) Starting new design...
-\i (00:00:04) trapsize 1
-\i (00:00:04) trapsize 1
-\i (00:00:04) trapsize 1
-\i (00:00:04) trapsize 71973
-\i (00:00:04) trapsize 13745
-\t (00:00:04) Creating TextBlocks
-\t (00:00:04) Creating Shapes on Package layers
-   (00:00:04) *WARNING* (axlDBAddProp): ERROR(SPMHDB-272): Property is only allowed on PACKAGE KEEPOUT or PLACE BOUND. ("PACKAGE_HEIGHT_MAX" 100.0)
-   (00:00:04) *WARNING* (axlDBAddProp): ERROR(SPMHDB-272): Property is only allowed on PACKAGE KEEPOUT or PLACE BOUND. ("PACKAGE_HEIGHT_MAX" 100.0)
-   (00:00:04) *WARNING* (axlDBAddProp): ERROR(SPMHDB-272): Property is only allowed on PACKAGE KEEPOUT or PLACE BOUND. ("PACKAGE_HEIGHT_MAX" 100.0)
-   (00:00:04) *WARNING* (axlDBAddProp): ERROR(SPMHDB-272): Property is only allowed on PACKAGE KEEPOUT or PLACE BOUND. ("PACKAGE_HEIGHT_MAX" 100.0)
-\t (00:00:04) Creating Pins
-\t (00:00:04) Creating Vias
-\t (00:00:04) Creating package symbol 'C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_FDC2112DNTR/AllegroV17_2/dnt0012b.psm'.
-\t (00:00:04) Starting Create symbol...
-\t (00:00:05) Symbol Created
-\i (00:00:05) trapsize 1514
-   (00:00:05) Loading cmds.cxt 
-   (00:00:05) Loading skillExt.cxt 
-\t (00:00:05) Opening existing design...
-\i (00:00:05) trapsize 1525
-\i (00:00:05) trapsize 1554
-\i (00:00:05) trapsize 1525
-\i (00:00:05) trapsize 1525
-\d (00:00:05) Design opened: C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_FDC2112DNTR/AllegroV17_2/DNT0012B.dra
-\t (00:00:05) Symbol Saved
-   (00:00:05) t
-\i (00:00:05) exit 
-\t (00:00:07)     Journal end - Tue Mar 29 19:06:43 2022
+\t (00:00:00) allegro 17.2 S081 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Apr 06 17:12:50 2022
+\t (00:00:00)         Host=REPEXWINDOWS User=repex Pid=22952 CPUs=12
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe C:\Users\repex\Desktop\SoilSensor\PCB\Components\ul_FDC2112DNTR\AllegroV17_2\DNT0012B.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:00) Opening existing design...
+\i (00:00:00) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged DNT0012B
+\d (00:00:00) Design opened: C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_FDC2112DNTR/AllegroV17_2/DNT0012B.dra
+\i (00:00:01) trapsize 1525
+\i (00:00:01) trapsize 1554
+\i (00:00:01) trapsize 1525
+\i (00:00:01) trapsize 1380
+\i (00:00:01) trapsize 1472
+\i (00:00:01) etchedit 
+\i (00:00:07) exit 
+\e (00:00:07) Do you want to save the changes you made to DNT0012B.dra?
+\i (00:00:09) fillin no 
+\t (00:00:11)     Journal end - Wed Apr 06 17:13:00 2022

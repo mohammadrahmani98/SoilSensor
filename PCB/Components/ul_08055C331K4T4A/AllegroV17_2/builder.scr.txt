@@ -1,0 +1,36 @@
+skill load "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_08055C331K4T4A/AllegroV17_2/builder.ile" 
+skill changeWorkingDir "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_08055C331K4T4A/AllegroV17_2" 
+skill LB_createFootprint "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_08055C331K4T4A/AllegroV17_2/CAP_08051A0R8CAT2A_AVX-L.xml" 
+scriptmode +i +n 
+step pkg map 
+setwindow form.pkgmap3d 
+FORM pkgmap3d stplist CAP_08051A0R8CAT2A_AVX.step 
+FORM pkgmap3d rotation_x 0 
+FORM pkgmap3d save_current 
+FORM pkgmap3d done 
+setwindow pcb 
+save  
+fillin yes 
+skill LB_createFootprint "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_08055C331K4T4A/AllegroV17_2/CAP_08051A0R8CAT2A_AVX-M.xml" 
+scriptmode +i +n 
+step pkg map 
+setwindow form.pkgmap3d 
+FORM pkgmap3d stplist CAP_08051A0R8CAT2A_AVX.step 
+FORM pkgmap3d rotation_x 0 
+FORM pkgmap3d save_current 
+FORM pkgmap3d done 
+setwindow pcb 
+save  
+fillin yes 
+skill LB_createFootprint "C:/Users/repex/Desktop/SoilSensor/PCB/Components/ul_08055C331K4T4A/AllegroV17_2/CAP_08051A0R8CAT2A_AVX.xml" 
+scriptmode +i +n 
+step pkg map 
+setwindow form.pkgmap3d 
+FORM pkgmap3d stplist CAP_08051A0R8CAT2A_AVX.step 
+FORM pkgmap3d rotation_x 0 
+FORM pkgmap3d save_current 
+FORM pkgmap3d done 
+setwindow pcb 
+save  
+fillin yes 
+exit 

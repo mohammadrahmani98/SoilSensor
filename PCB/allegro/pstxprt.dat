@@ -1,0 +1,130 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Apr-06-2022 at 17:27:24 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SOILSCHEMATIC';
+ POST_TIME='Jan 11 2022 00:43:04';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_VAR_SENSOR_60N':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS42@ANALOG.C_VAR.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins42@analog.\c_var.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins42@analog.\c_var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_CAP_0805_33P':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS209@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins209@analog.\c.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins209@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_CAP_0805_1U':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS696@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins696@analog.\c.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins696@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_CAP_0805_0.1U':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS712@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins712@analog.\c.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins712@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_CAP_0805_0.1U':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS1984@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins1984@analog.\c.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins1984@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_CAP_0805_1U':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS4183@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins4183@analog.\c.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins4183@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON4_CONN4_CON4':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS2227@CONNECTOR.CON4.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins2227@connector.\con4.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins2227@connector.\con4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'L_IND_0805_18UH':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS261@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins261@analog.\l.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins261@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES_0805_5K':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS2348@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins2348@analog.\r.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins2348@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES_0805_5K':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS2373@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins2373@analog.\r.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins2373@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'FDC2112_DNT0012B_FCD2112':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS120@LIBRARY.FDC2112.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins120@\library\.\fdc2112.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins120@\library\.\fdc2112.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'TMP275_D8_TMP275':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS1235@LIBRARY.TMP275.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins1235@\library\.\tmp275.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins1235@\library\.\tmp275.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

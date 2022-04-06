@@ -1,0 +1,95 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : SoilSensor.brd                                )
+(    Software Version : 17.2S081                                      )
+(    Date/Time        : Wed Apr 06 17:27:33 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         '.'
+Design Directory:            'C:/Users/repex/Desktop/SoilSensor/PCB/allegro'
+Old design name:             'C:/Users/repex/Desktop/SoilSensor/PCB/allegro/SoilSensor.brd'
+New design name:             'C:/Users/repex/Desktop/SoilSensor/PCB/allegro/SoilSensor.brd'
+
+CmdLine: netrev -$ -i . -y 1 -h -q netrev_constraint_report.xml C:/Users/repex/Desktop/SoilSensor/PCB/allegro/#Taaaafu04608.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read ./pstchip.dat 
+   Finished reading ./pstchip.dat (00:00:00.03)
+Starting to read ./pstxprt.dat 
+   Finished reading ./pstxprt.dat (00:00:00.00)
+Starting to read ./pstxnet.dat 
+   Finished reading ./pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/ORCAD_PERSONAL_LIBRARY/FOOTPRINTS 
+           ../Components/ALL_FOOTPRINTS 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/ORCAD_PERSONAL_LIBRARY/PADSTACKS 
+           ../components/ALL_PADSTACKS 
+           ./ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Apr 6 17:27:33 2022
+   DESIGN NAME : 'SOILSCHEMATIC'
+   PACKAGING ON Jan 11 2022 00:43:04
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:20
+elapsed time  0:00:01
+
