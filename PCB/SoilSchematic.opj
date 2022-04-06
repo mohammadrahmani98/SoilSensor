@@ -174,28 +174,29 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\soilschematic.dsn"))
+      (Select "Design Resources" ".\soilschematic.dsn" "SCHEMATIC1"
+         "SoilHumiditySensor"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 246 0 921"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 930"))
       (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 979 52 231"))
+      (Path "C:\USERS\REPEX\DESKTOP\SOILSENSOR\PCB\LIBRARY.OLB")
+      (Package "FDC2112")
+      (PartType "1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 78 1588 78 575")
-        (Scroll "0 26")
-        (Zoom "100")
+        (Scroll "-366 0")
+        (Zoom "101")
         (Occurrence "/"))
       (Path "C:\USERS\REPEX\DESKTOP\SOILSENSOR\PCB\SOILSCHEMATIC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "SoilHumiditySensor"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1722 130 468"))
-      (Path "C:\USERS\REPEX\DESKTOP\SOILSENSOR\PCB\LIBRARY.OLB")
-      (Package "FDC2112")
-      (PartType "1")))
+      (Page "SoilHumiditySensor")))
   (ISPCBBASICLICENSE "false"))
