@@ -1,14 +1,22 @@
-from network import Sigfox
+from network import LoRa
 import socket
+import machine
+import time
 import ubinascii
 
-# RCZ1 = EUROPE RCZ2 = USA RCZ3 = Japan RCZ4 = Australia
-sigfox = Sigfox(mode=Sigfox.SIGFOX, rcz=Sigfox.RCZ1)
-print(ubinascii.hexlify(sigfox.mac()))
-s = socket.socket(socket.AF_SIGFOX, socket.SOCK_RAW)
+lora = LoRa(mode=LoRa.LORA, region=LoRa.EU868)
 
-s.setblocking(True)
+s = socket.socket(socket.AF_LORA, socket.SOCK_RAW)
+i = 0
+while True:
+   s.setblocking(True)
 
-s.setsockopt(socket.SOL_SIGFOX, socket.SO_RX, False)
+   s.send('Hello')
 
-s.send('Hello !')
+   s.setblocking(False)
+
+   print("Sended! ",i," Times")
+
+   i += 1
+
+   time.sleep(machine.rng() & 0x0F)
