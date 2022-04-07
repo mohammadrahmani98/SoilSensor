@@ -10,8 +10,9 @@ s = socket.socket(socket.AF_LORA, socket.SOCK_RAW)
 i = 0
 while True:
    s.setblocking(True)
-
-   s.send('Hello')
+   ender = ' '
+   val = str(i) + ender;
+   s.send(val)
 
    s.setblocking(False)
 
