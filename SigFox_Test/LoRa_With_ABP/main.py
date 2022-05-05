@@ -12,9 +12,9 @@ import struct
 lora = LoRa(mode=LoRa.LORAWAN, region=LoRa.EU868)
 
 # create an ABP authentication params
-dev_addr = struct.unpack(">l", ubinascii.unhexlify('00000005'))[0]
-nwk_swkey = ubinascii.unhexlify('2B7E151628AED2A6ABF7158809CF4F3C')
-app_swkey = ubinascii.unhexlify('2B7E151628AED2A6ABF7158809CF4F3C')
+dev_addr = struct.unpack(">l", ubinascii.unhexlify('260BAA94'))[0]
+nwk_swkey = ubinascii.unhexlify('C1765DA1A694F47909ED965DFF2E0C66')
+app_swkey = ubinascii.unhexlify('C4C01224257229893EC689A34656C435')
 
 # Uncomment for US915 / AU915 & Pygate
 # for i in range(0,8):

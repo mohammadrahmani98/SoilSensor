@@ -1,4 +1,1 @@
-import pycom
-import time
-
-pycom.heartbeat(False)
+# boot.py -- run on boot-up
