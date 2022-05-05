@@ -5,7 +5,7 @@ import ubinascii
 
 lora = LoRa(mode=LoRa.LORAWAN, region=LoRa.EU868)
 
-app_eui = ubinascii.unhexlify('FF55AA2211E56000')
+app_eui = ubinascii.unhexlify('FF55AA2211E56000') 
 app_key = ubinascii.unhexlify('F37B8FA84633B20F78A37A9383B1FC42')
 dev_eui = ubinascii.unhexlify('70B3D5499AA34571')
 
