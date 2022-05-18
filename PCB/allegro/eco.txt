@@ -2,22 +2,36 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:/Users/repex/Desktop/SoilSensor/PCB/allegro/SoilSensor.brd                |
-|                                                    Wed Apr 06 17:27:33 2022  |
+|  D:.../SoilSensor/PCB/allegro/SoilSensor.brd                                 |
+|                                                    Wed May 18 22:29:47 2022  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  0            pins MOVED FROM this net (to net name listed on right)
-                                 C2.2                           
+  SCL          pins MOVED FROM this net (to net name listed on right)
+                                 TP1.1                          
                                                                          N00369
-                                 L1.1             0.9017 -40.250
-                                                                         N00369
-                                 U1.10           -0.7500 -42.350
-                                                                         N00369
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA          pins MOVED FROM this net (to net name listed on right)
+                                 TP2.1                          
+                                                                          VC_IN
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       3                                        |
+|  D:.../SoilSensor/PCB/allegro/SoilSensor.brd                                 |
+|                                                    Wed May 18 22:29:47 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP3                 TEST POINT_TESTPOINT_TEST POINT                
+ TP4                 TEST POINT_TESTPOINT_TEST POINT                
+|------------------------------------------------------------------------------|
+|       Nets changed          :       2                                        |
+|       Components deleted    :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:       3                                        |
+|   Total ECO changes reported:       4                                        |
 |------------------------------------------------------------------------------|

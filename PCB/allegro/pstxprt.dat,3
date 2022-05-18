@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Apr-06-2022 at 16:48:39 }
+{ Using PSTWRITER 17.2.0 d001May-18-2022 at 22:23:22 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='SOILSCHEMATIC';
@@ -18,7 +18,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C2 'C_CAP_0805_33P':;
+ C2 'C_CAP_0805_3.3P':;
 
 SECTION_NUMBER 1
  '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS209@ANALOG.C.NORMAL(CHIPS)':
@@ -88,7 +88,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R1 'R_RES_0805_5K':;
+ R1 'R_RES_0805_1K':;
 
 SECTION_NUMBER 1
  '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS2348@ANALOG.R.NORMAL(CHIPS)':
@@ -98,12 +98,52 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R2 'R_RES_0805_5K':;
+ R2 'R_RES_0805_1K':;
 
 SECTION_NUMBER 1
  '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS2373@ANALOG.R.NORMAL(CHIPS)':
  C_PATH='@soilschematic.schematic1(sch_1):ins2373@analog.\r.normal\(chips)',
  P_PATH='@soilschematic.schematic1(sch_1):page1_ins2373@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP1 'TEST POINT_TESTPOINT_TEST POINT':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS5737@CONNECTOR.TEST POINT.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins5737@connector.\test point.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins5737@connector.\test point.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP2 'TEST POINT_TESTPOINT_TEST POINT':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS5832@CONNECTOR.TEST POINT.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins5832@connector.\test point.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins5832@connector.\test point.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP3 'TEST POINT_TESTPOINT_TEST POINT':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS5870@CONNECTOR.TEST POINT.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins5870@connector.\test point.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins5870@connector.\test point.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP4 'TEST POINT_TESTPOINT_TEST POINT':;
+
+SECTION_NUMBER 1
+ '@SOILSCHEMATIC.SCHEMATIC1(SCH_1):INS5909@CONNECTOR.TEST POINT.NORMAL(CHIPS)':
+ C_PATH='@soilschematic.schematic1(sch_1):ins5909@connector.\test point.normal\(chips)',
+ P_PATH='@soilschematic.schematic1(sch_1):page1_ins5909@connector.\test point.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

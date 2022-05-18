@@ -35,7 +35,8 @@
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "TRUE")
-    (DRC_Report_File "C:\USERS\REPEX\DESKTOP\SOILSENSOR\PCB\SOILSCHEMATIC.DRC")
+    (DRC_Report_File
+       "D:\OneDrive - Politecnico di Torino\Innovative wireless platforms for the internet of things\SoilSensor\PCB\allegro\DRCreport.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -99,7 +100,9 @@
     (Crossref__Outputtype "0")
     (CrossRef_XY "FALSE")
     (CrossRef_Unused "FALSE")
-    (XRF_View_Output "FALSE"))
+    (XRF_View_Output "FALSE")
+    ("Allegro Netlist Input Board File"
+       "D:\OneDrive - Politecnico di Torino\Innovative wireless platforms for the internet of things\SoilSensor\PCB\allegro\SoilSensor.brd"))
   (Folder "Outputs"
     (File ".\soilschematic.drc"
       (Type "Report"))
@@ -118,6 +121,10 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("TEST POINT"
+      (FullPartName "TEST POINT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (OFFPAGELEFT-L
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -175,7 +182,7 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library.olb")
       (Path "Outputs")
-      (Select "Outputs" ".\soilschematic.bom"))
+      (Select "Design Resources" ".\soilschematic.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -185,19 +192,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1562 52 549")
-        (Scroll "-241 0")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1562 52 549")
+        (Scroll "-366 2")
         (Zoom "101")
         (Occurrence "/"))
       (Path
          "D:\ONEDRIVE - POLITECNICO DI TORINO\INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS\SOILSENSOR\PCB\SOILSCHEMATIC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "SoilHumiditySensor"))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1614 104 601"))
-      (Path
-         "d:\onedrive - politecnico di torino\innovative wireless platforms for the internet of things\soilsensor\pcb\soilschematic.bom")
-      (Scroll "0")))
+      (Page "SoilHumiditySensor")))
   (ISPCBBASICLICENSE "false"))

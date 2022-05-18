@@ -7,17 +7,18 @@ Repetto, Simone, Calice, Mohammad          Revision: 1.0
 
 
 
-Bill Of Materials            May 18,2022      18:56:48	Page1
+Bill Of Materials            May 18,2022      22:07:20	Page1
 
 Item	Quantity	Reference	Part
 ______________________________________________
 
 1	1	C1	60n
-2	1	C2	33p
+2	1	C2	3.3p
 3	2	C3,C6	1u
 4	2	C4,C5	0.1u
 5	1	J1	CON4
 6	1	L1	18uH
 7	2	R1,R2	1k
-8	1	U1	FCD2112
-9	1	U2	TMP275
+8	4	TP1,TP2,TP3,TP4	TEST POINT
+9	1	U1	FCD2112
+10	1	U2	TMP275

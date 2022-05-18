@@ -2,10 +2,91 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:/Users/repex/Desktop/SoilSensor/PCB/allegro/SoilSensor.brd                |
-|                                                    Wed Apr 06 17:21:27 2022  |
+|  D:.../SoilSensor/PCB/allegro/SoilSensor.brd                                 |
+|                                                    Wed May 18 22:23:23 2022  |
 |------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N00369       pins ADDED TO this existing net (pins not previously on any net)
+                                 TP3.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL          pins ADDED TO this existing net (pins not previously on any net)
+                                 TP1.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA          pins ADDED TO this existing net (pins not previously on any net)
+                                 TP2.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VC_IN        pins ADDED TO this existing net (pins not previously on any net)
+                                 TP4.1                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
+|  D:.../SoilSensor/PCB/allegro/SoilSensor.brd                                 |
+|                                                    Wed May 18 22:23:23 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C_CAP_0805_3.3P
+ R_RES_0805_1K
+ TEST POINT_TESTPOINT_TEST POINT
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:.../SoilSensor/PCB/allegro/SoilSensor.brd                                 |
+|                                                    Wed May 18 22:23:23 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP1                 TEST POINT_TESTPOINT_TEST POINT 
+ TP2                 TEST POINT_TESTPOINT_TEST POINT 
+ TP3                 TEST POINT_TESTPOINT_TEST POINT 
+ TP4                 TEST POINT_TESTPOINT_TEST POINT 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:.../SoilSensor/PCB/allegro/SoilSensor.brd                                 |
+|                                                    Wed May 18 22:23:23 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C2                  C_CAP_0805_3.3P        0.0000 -40.250 C_CAP_0805_33P
+ R1                  R_RES_0805_1K         -3.7500 -50.250 R_RES_0805_5K
+ R2                  R_RES_0805_1K         -10.500 -51.750 R_RES_0805_5K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  D:.../SoilSensor/PCB/allegro/SoilSensor.brd                                 |
+|                                                    Wed May 18 22:23:23 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C2.2            0.0000 -40.250 PRIM_FILE      .\pstchip.dat
+ R1.2           -3.7500 -50.250 PRIM_FILE      .\pstchip.dat
+ R2.2           -10.500 -51.750 PRIM_FILE      .\pstchip.dat
+ TP1.1                          PRIM_FILE      .\pstchip.dat
+ TP2.1                          PRIM_FILE      .\pstchip.dat
+ TP3.1                          PRIM_FILE      .\pstchip.dat
+ TP4.1                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :       4                                        |
+|       Comp definitions added:       3                                        |
+|       Components added      :       4                                        |
+|       Components changed    :       3                                        |
+|       Slot property added   :       7                                        |
 |                                                                              |
-|   Total ECO changes reported:       0                                        |
+|   Total ECO changes reported:      21                                        |
 |------------------------------------------------------------------------------|

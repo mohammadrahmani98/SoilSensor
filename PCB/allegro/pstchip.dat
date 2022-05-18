@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Apr-06-2022 at 17:27:24}
+{ Using PSTWRITER 17.2.0 d001May-18-2022 at 22:29:47}
 primitive 'C_VAR_SENSOR_60N';
   pin
     '1':
@@ -15,7 +15,7 @@ primitive 'C_VAR_SENSOR_60N';
     VALUE='60n';
   end_body;
 end_primitive;
-primitive 'C_CAP_0805_33P';
+primitive 'C_CAP_0805_3.3P';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -27,7 +27,7 @@ primitive 'C_CAP_0805_33P';
   body
     PART_NAME='C';
     JEDEC_TYPE='cap_0805';
-    VALUE='33p';
+    VALUE='3.3p';
   end_body;
 end_primitive;
 primitive 'C_CAP_0805_1U';
@@ -96,7 +96,7 @@ primitive 'L_IND_0805_18UH';
     VALUE='18uH';
   end_body;
 end_primitive;
-primitive 'R_RES_0805_5K';
+primitive 'R_RES_0805_1K';
   pin
     '2':
       PIN_NUMBER='(2)';
@@ -108,7 +108,19 @@ primitive 'R_RES_0805_5K';
   body
     PART_NAME='R';
     JEDEC_TYPE='res_0805';
-    VALUE='5k';
+    VALUE='1k';
+  end_body;
+end_primitive;
+primitive 'TEST POINT_TESTPOINT_TEST POINT';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TEST POINT';
+    JEDEC_TYPE='TestPoint';
+    VALUE='TEST POINT';
   end_body;
 end_primitive;
 primitive 'FDC2112_DNT0012B_FCD2112';

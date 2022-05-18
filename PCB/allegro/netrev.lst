@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : SoilSensor.brd                                )
 (    Software Version : 17.2S081                                      )
-(    Date/Time        : Wed Apr 06 17:27:33 2022                      )
+(    Date/Time        : Wed May 18 22:29:47 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,21 +17,21 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         '.'
-Design Directory:            'C:/Users/repex/Desktop/SoilSensor/PCB/allegro'
-Old design name:             'C:/Users/repex/Desktop/SoilSensor/PCB/allegro/SoilSensor.brd'
-New design name:             'C:/Users/repex/Desktop/SoilSensor/PCB/allegro/SoilSensor.brd'
+Schematic directory:         'D:\ONEDRIVE - POLITECNICO DI TORINO\INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS\SOILSENSOR\PCB\allegro'
+Design Directory:            'D:/ONEDRIVE - POLITECNICO DI TORINO/INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS/SOILSENSOR/PCB/allegro'
+Old design name:             'D:/OneDrive - Politecnico di Torino/Innovative wireless platforms for the internet of things/SoilSensor/PCB/allegro/SoilSensor.brd'
+New design name:             'D:/ONEDRIVE - POLITECNICO DI TORINO/INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS/SOILSENSOR/PCB/allegro/SoilSensor.brd'
 
-CmdLine: netrev -$ -i . -y 1 -h -q netrev_constraint_report.xml C:/Users/repex/Desktop/SoilSensor/PCB/allegro/#Taaaafu04608.tmp
+CmdLine: netrev.exe -y 1 -i D:\ONEDRIVE - POLITECNICO DI TORINO\INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS\SOILSENSOR\PCB\allegro D:\OneDrive - Politecnico di Torino\Innovative wireless platforms for the internet of things\SoilSensor\PCB\allegro\SoilSensor.brd D:\ONEDRIVE - POLITECNICO DI TORINO\INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS\SOILSENSOR\PCB\allegro\SoilSensor.brd
 
 ------ Preparing to read pst files ------
 
-Starting to read ./pstchip.dat 
-   Finished reading ./pstchip.dat (00:00:00.03)
-Starting to read ./pstxprt.dat 
-   Finished reading ./pstxprt.dat (00:00:00.00)
-Starting to read ./pstxnet.dat 
-   Finished reading ./pstxnet.dat (00:00:00.00)
+Starting to read D:/ONEDRIVE - POLITECNICO DI TORINO/INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS/SOILSENSOR/PCB/allegro/pstchip.dat 
+   Finished reading D:/ONEDRIVE - POLITECNICO DI TORINO/INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS/SOILSENSOR/PCB/allegro/pstchip.dat (00:00:00.03)
+Starting to read D:/ONEDRIVE - POLITECNICO DI TORINO/INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS/SOILSENSOR/PCB/allegro/pstxprt.dat 
+   Finished reading D:/ONEDRIVE - POLITECNICO DI TORINO/INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS/SOILSENSOR/PCB/allegro/pstxprt.dat (00:00:00.00)
+Starting to read D:/ONEDRIVE - POLITECNICO DI TORINO/INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS/SOILSENSOR/PCB/allegro/pstxnet.dat 
+   Finished reading D:/ONEDRIVE - POLITECNICO DI TORINO/INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS/SOILSENSOR/PCB/allegro/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -65,7 +65,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Apr 6 17:27:33 2022
+netrev run on May 18 22:29:47 2022
    DESIGN NAME : 'SOILSCHEMATIC'
    PACKAGING ON Jan 11 2022 00:43:04
 
@@ -90,6 +90,6 @@ netrev run on Apr 6 17:27:33 2022
  No oversight detected
  No warning detected
 
-cpu time      0:00:20
-elapsed time  0:00:01
+cpu time      0:00:24
+elapsed time  0:00:00
 
