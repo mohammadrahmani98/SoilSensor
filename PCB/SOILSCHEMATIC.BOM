@@ -1,4 +1,4 @@
-Soil Moisture Sensor  Revised: Wednesday, March 30, 2022
+Soil Moisture Sensor  Revised: Wednesday, May 18, 2022
 Repetto, Simone, Calice, Mohammad          Revision: 1.0
 
 
@@ -7,7 +7,7 @@ Repetto, Simone, Calice, Mohammad          Revision: 1.0
 
 
 
-Bill Of Materials          March 30,2022      14:11:20	Page1
+Bill Of Materials            May 18,2022      18:56:48	Page1
 
 Item	Quantity	Reference	Part
 ______________________________________________
@@ -18,6 +18,6 @@ ______________________________________________
 4	2	C4,C5	0.1u
 5	1	J1	CON4
 6	1	L1	18uH
-7	2	R1,R2	5k
+7	2	R1,R2	1k
 8	1	U1	FCD2112
 9	1	U2	TMP275

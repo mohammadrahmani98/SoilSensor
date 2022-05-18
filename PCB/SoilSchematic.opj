@@ -65,7 +65,8 @@
     (DRC_Run_Physical_Custom_DRC "FALSE")
     (BOM_Scope "0")
     (BOM_Mode "0")
-    (BOM_Report_File "C:\USERS\REPEX\DESKTOP\SOILSENSOR\PCB\SOILSCHEMATIC.BOM")
+    (BOM_Report_File
+       "D:\OneDrive - Politecnico di Torino\Innovative wireless platforms for the internet of things\SoilSensor\PCB\SOILSCHEMATIC.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_Header "Item\tQuantity\tReference\tPart")
@@ -174,8 +175,7 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\soilschematic.dsn" "SCHEMATIC1"
-         "SoilHumiditySensor"))
+      (Select "Outputs" ".\soilschematic.bom"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -183,20 +183,21 @@
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 930"))
       (Tab 0))
     (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 979 52 231"))
-      (Path "C:\USERS\REPEX\DESKTOP\SOILSENSOR\PCB\LIBRARY.OLB")
-      (Package "FDC2112")
-      (PartType "1"))
-    (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1588 78 575")
-        (Scroll "-366 0")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1562 52 549")
+        (Scroll "-241 0")
         (Zoom "101")
         (Occurrence "/"))
-      (Path "C:\USERS\REPEX\DESKTOP\SOILSENSOR\PCB\SOILSCHEMATIC.DSN")
+      (Path
+         "D:\ONEDRIVE - POLITECNICO DI TORINO\INNOVATIVE WIRELESS PLATFORMS FOR THE INTERNET OF THINGS\SOILSENSOR\PCB\SOILSCHEMATIC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "SoilHumiditySensor")))
+      (Page "SoilHumiditySensor"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 104 1614 104 601"))
+      (Path
+         "d:\onedrive - politecnico di torino\innovative wireless platforms for the internet of things\soilsensor\pcb\soilschematic.bom")
+      (Scroll "0")))
   (ISPCBBASICLICENSE "false"))
