@@ -14,6 +14,7 @@ TOOL-SELECT            YES
 OPTIMIZE_DRILLING      NO
 ENHANCED_EXCELLON      YES
 TAPE-FILE              D:/OneDrive - Politecnico di Torino/Innovative wireless platforms for the internet of things/SoilSensor/PCB/Artworks/SoilSensor-1-2.drl
+ROUTE-FILE             D:/OneDrive - Politecnico di Torino/Innovative wireless platforms for the internet of things/SoilSensor/PCB/Artworks/SoilSensor.rou
 HEADER                 none
 LEADER                 12
 CODE                   ASCII

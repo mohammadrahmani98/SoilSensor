@@ -3,8 +3,9 @@ G04 Layout Name:  SoilSensor.brd*
 G04 Film Name:    OUTLINE*
 G04 File Format:  Gerber RS274X*
 G04 File Origin:  Cadence Allegro 17.2-S081*
-G04 Origin Date:  Thu May 19 15:01:27 2022*
+G04 Origin Date:  Thu May 19 17:33:50 2022*
 G04 *
+G04 Layer:  BOARD GEOMETRY/OUTLINE*
 G04 Layer:  BOARD GEOMETRY/DESIGN_OUTLINE*
 G04 Layer:  BOARD GEOMETRY/CUTOUT*
 G04 *
