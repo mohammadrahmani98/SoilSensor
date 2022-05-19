@@ -6,11 +6,11 @@ T03C1.8542
 ;LEADER: 12 
 ;HEADER: 
 ;CODE  : ASCII 
-;FILE  : SoilSensor-1-2-1-2.drl for  ... layers TOP and BOTTOM
+;FILE  : SoilSensor-1-2.drl for  ... layers TOP and BOTTOM
 ;DESIGN: SoilSensor.brd
 ;T01 Holesize 1. = 0.203200 Tolerance = +0.000000/-0.000000 PLATED MM Quantity = 5
 ;T02 Holesize 2. = 0.800000 Tolerance = +0.100000/-0.100000 PLATED MM Quantity = 12
-;T03 Holesize 3. = 1.854200 Tolerance = +0.100000/-0.100000 PLATED MM Quantity = 8
+;T03 Holesize 3. = 1.854200 Tolerance = +0.130000/-0.080000 PLATED MM Quantity = 8
 %
 G90
 T01
