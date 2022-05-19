@@ -10,9 +10,10 @@ REPEAT-CODES           YES
 SUPPRESS-LEAD-ZEROES   YES
 SUPPRESS-TRAIL-ZEROES  NO
 SUPPRESS-EQUAL         NO
-TOOL-SELECT            NO
+TOOL-SELECT            YES
 OPTIMIZE_DRILLING      NO
 ENHANCED_EXCELLON      YES
+TAPE-FILE              D:/OneDrive - Politecnico di Torino/Innovative wireless platforms for the internet of things/SoilSensor/PCB/Artworks/SoilSensor-1-2.drl
 HEADER                 none
 LEADER                 12
 CODE                   ASCII

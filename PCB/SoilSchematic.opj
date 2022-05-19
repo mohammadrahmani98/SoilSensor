@@ -118,6 +118,8 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\soilschematic.xrf"
+      (Type "Report"))
+    (File ".\allegro\drcreport.drc"
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
@@ -181,8 +183,7 @@
       (Path "Design Resources" ".\soilschematic.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library.olb")
-      (Path "Outputs")
-      (Select "Design Resources" ".\soilschematic.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
