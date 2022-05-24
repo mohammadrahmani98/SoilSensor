@@ -22,8 +22,8 @@ SEPARATE               NO
 SEPARATE-ROUTING       NO
 DRILLING               LAYER-PAIR
 BACKDRILL              NO
-CAVITY                 NO
 COUNTER                NO
+CAVITY                 NO
 TOLERANCE_DRILL        NO
 TOLERANCE_TRAVEL       NO
 TOOL_SIZE              NO
