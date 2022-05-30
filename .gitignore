@@ -4,3 +4,6 @@
 # All log files
 **.log*
 **.jrl*
+
+# All VSCode stuffs
+**.vscode
