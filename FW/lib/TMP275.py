@@ -56,6 +56,7 @@ class TMP275:
         data = self.readTempReg()
         # Shift by 4 position to the left
         data = self.__getTempData(data[0], data[1])
+        self.temperature = data
         return data
 
     def setResolution(self, res = 12):
