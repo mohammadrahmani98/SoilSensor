@@ -33,13 +33,12 @@ class TMP275:
     CRES_OFFSET = const(0x5)
     OS_MODE     = const(0b10000000) # Set One-Shot mode
 
-    def __init__(self, pysense = None, sda = 'P22', scl = 'P21'):
-        if pysense is not None:
-            self.i2c = pysense.i2c
-        else:
-            self.i2c = I2C(0, mode=I2C.MASTER, pins=(sda, scl))
+    def __init__(self, sda = 'P22', scl = 'P21'):     
+        self.i2c = I2C(0, mode=I2C.MASTER, pins=(sda, scl))
         # Set baudrate at 20kbauds
-        self.i2c.init(baudrate=20000)
+        # self.i2c.init(baudrate=20000)
+        # Launch a scan for debug
+        self.i2c.scan()
         # Set resolution at 12 bits
         self.setResolution(12)
         # Set shutdown mode
@@ -54,8 +53,10 @@ class TMP275:
         self.setOneShotMode()
         time.sleep(0.3)
         data = self.readTempReg()
+        #debug_str = "DEBUG: " + str(int.from_bytes(data, "big"))
+        #print(debug_str)
         # Shift by 4 position to the left
-        data = self.__getTempData(data[0], data[1])
+        data = self.__getTempData(data[0], data[1])*128/0x7FF
         self.temperature = data
         return data
 
@@ -74,27 +75,34 @@ class TMP275:
         if res == 12:
             conf_reg &= ~(self.CRES_MASK)   # Clears the right position
             conf_reg |= 0b11 << self.CRES_OFFSET    # 220ms
-        self.i2c.writeto(self.TMP275_I2C_ADDR, bytearray([conf_reg]))
+        out_str=bytearray([self.CONF_REG])
+        out_str.append(conf_reg)
+        self.i2c.writeto(self.TMP275_I2C_ADDR, out_str)
 
     def setShutdownMode(self):
         " Setting shutdown mode "
         conf_reg = self.readConfReg()
         conf_reg |= self.SD_MODE
-        self.i2c.writeto(self.TMP275_I2C_ADDR, bytearray([conf_reg])) 
+        out_str=bytearray([self.CONF_REG])
+        out_str.append(conf_reg)
+        self.i2c.writeto(self.TMP275_I2C_ADDR, out_str)
 
     def setOneShotMode(self):
         """ Setting one-shot mode """
         conf_reg = self.readConfReg()
         conf_reg |= self.OS_MODE
-        self.i2c.writeto(self.TMP275_I2C_ADDR, bytearray([conf_reg]))
+        out_str=bytearray([self.CONF_REG])
+        out_str.append(conf_reg)
+        self.i2c.writeto(self.TMP275_I2C_ADDR, out_str)
 
     def readTempReg(self):
         # Set register pointer to ConfReg
         self.i2c.writeto(self.TMP275_I2C_ADDR, bytearray([self.TEMP_REG]))
-        return self.i2c.readfrom(self.TMP275_I2C_ADDR, 2)
+        data = self.i2c.readfrom(self.TMP275_I2C_ADDR, 2)
+        return data
 
     def readConfReg(self):
         # Set register pointer to ConfReg
         self.i2c.writeto(self.TMP275_I2C_ADDR, bytearray([self.CONF_REG]))
-        return self.i2c.readfrom(self.TMP275_I2C_ADDR, 1)
+        return int.from_bytes(self.i2c.readfrom(self.TMP275_I2C_ADDR, 1), "big")
 
