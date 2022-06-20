@@ -4,3 +4,9 @@
 # All log files
 **.log*
 **.jrl*
+
+# All VSCode stuffs
+**.vscode
+
+# Python stuffs
+**/__pycache__
