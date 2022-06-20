@@ -47,14 +47,18 @@ class FDC2112:
     def resetDev(self):
         status_reg = self.readReg(self.RESET_DEV_REG)
         status_reg |= 0x80 # Set reset pin high
-        return self.i2c.writeReg(self.RESET_DEV_REG, status_reg)
+        return self.writeReg(self.RESET_DEV_REG, status_reg)
 
     def printIds(self):
-        print("Manifacturer ID: {:X}".format(self.readReg(self.MANIFACTURER_ID_REG)))
-        print("Device ID: {:X}".format(self.readReg(self.DEVICE_ID_REG)))
+        print("\nFDC2112:")
+        print("\tManifacturer ID: 0x{:X}".format(self.readRegBytes(self.MANIFACTURER_ID_REG,2)))
+        print("\tDevice ID: 0x{:X}\n".format(self.readRegBytes(self.DEVICE_ID_REG,2)))
         
     def readReg(self, addr):
         return int.from_bytes((self.i2c.readfrom_mem(self.FDC2112_I2C_ADDR, addr, 1)),"big")
 
+    def readRegBytes(self, addr, n_bytes):
+        return int.from_bytes((self.i2c.readfrom_mem(self.FDC2112_I2C_ADDR, addr, n_bytes)),"big")
+
     def writeReg(self, addr, byte):
-        return self.i2c.writeto_mem(self.FDC2112_I2C_ADDR, addr, bytes(byte))
+        return self.i2c.writeto_mem(self.FDC2112_I2C_ADDR, addr, bytes([byte]))
