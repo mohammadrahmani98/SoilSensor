@@ -35,10 +35,8 @@ class TMP275:
 
     def __init__(self, sda = 'P22', scl = 'P21'):     
         self.i2c = I2C(0, mode=I2C.MASTER, pins=(sda, scl))
-        # Set baudrate at 20kbauds
+        ## Set baudrate at 20kbauds
         # self.i2c.init(baudrate=20000)
-        # Launch a scan for debug
-        self.i2c.scan()
         # Set resolution at 12 bits
         self.setResolution(12)
         # Set shutdown mode
