@@ -5,6 +5,7 @@
 # ...
 #
 
+from math import pi
 import time
 from machine import I2C
 
@@ -65,21 +66,28 @@ class FDC2112:
         # Set analog multiplexer on CH0
         self.setMux(self.ACTIVE_CHAN_CH0_MODE)
         # Set settlecount to 128
-        self.setSettleCount(128, 0)
+        self.setSettleCount(0x200, 0)
         # Set rcount to 256
-        self.setRCount(256, 0)
+        self.setRCount(0x200, 0)
         # Set high current mode
         self.setHighCurrentMode(True)
         # Set deglitch filter
         self.setDeglitchFilter(0b111)
 
-    def readRawData(self):
+    def readRawData(self, channel):
         self.setSleepMode(False)
-        time.sleep(0.010)
-        data=bytearray([self.readReg(self.DATA_CH0_REG)&(self.DATA_MSB_MASK)])
-        data.append(self.readReg(self.DATA_CH0_LSB_REG))
+        time.sleep(1)
+        data=bytearray([self.readReg(self.DATA_CH0_REG+(channel<<1))&(self.DATA_MSB_MASK)])
         self.setSleepMode(True)
-        return data
+        return int.from_bytes(data, "big")
+
+    def readFrequencySensor(self, channel):
+        return self.chx_fin_sel*self.fref*self.readRawData(channel)/(2**12)
+
+    def getCSensor(self):
+        C = 3.3e-12
+        L = 18e-6
+        return 1/(L*((2*pi*self.readFrequencySensor(0))**2))-C
 
     def resetDev(self):
         reset_dev_reg = self.readReg(self.RESET_DEV_REG)
@@ -95,12 +103,14 @@ class FDC2112:
         address = self.CLOCK_DIVIDERS_CH0_REG+(channel&0x3)
         clock_dividers_reg = self.readReg(address)
         clock_dividers_reg = (clock_dividers_reg&(~self.CHX_FREF_DIVIDER_MASK)) | ((fref << self.CHX_FREF_DIVIDER_OFFSET)&(self.CHX_FREF_DIVIDER_MASK))
+        self.fref = 40e6/fref   # 40MHz / FREF
         return self.writeReg(address, clock_dividers_reg)
 
-    def setFIn(self, fin, channel):
+    def setFIn(self, fin_sel, channel):
         address = self.CLOCK_DIVIDERS_CH0_REG+(channel&0x3)
         clock_dividers_reg = self.readReg(address)
-        clock_dividers_reg = (clock_dividers_reg&(~self.CHX_FIN_DIVIDER_MASK)) | ((fin << self.CHX_FIN_DIVIDER_OFFSET)&(self.CHX_FIN_DIVIDER_MASK))
+        clock_dividers_reg = (clock_dividers_reg&(~self.CHX_FIN_DIVIDER_MASK)) | ((fin_sel << self.CHX_FIN_DIVIDER_OFFSET)&(self.CHX_FIN_DIVIDER_MASK))
+        self.chx_fin_sel = fin_sel
         return self.writeReg(address, clock_dividers_reg)
 
     def setMux(self, mode):
